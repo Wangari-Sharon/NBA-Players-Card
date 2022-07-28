@@ -1,6 +1,6 @@
 ## Project Name.
 
-NBA Player Card.
+NBA Players Card.
 
 ## Author Name.
 
