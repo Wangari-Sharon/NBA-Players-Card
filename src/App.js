@@ -1,10 +1,10 @@
 import React from 'react'
 import {useEffect, useState} from "react";
-import PlayerContainer from "./Components/PlayerContainer";
-import Header from "./Components/Header";
-import NavBar from "./Components/NavBar";
+import PlayerContainer from "./PlayerContainer";
+import Header from "./Header";
+import NavBar from "./NavBar";
 
-import { Route, Routes} from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -31,9 +31,6 @@ function App() {
 
   const filterBigs = filteredPlayers.filter((playerObj) => playerObj.position.toLowerCase() === "big")
 
-  const filterTeams = filteredPlayers.filter((playerObj) => playerObj.position.toLowerCase() === "team")
-
-
  
 
   return (
@@ -41,7 +38,7 @@ function App() {
       <Header />
       <NavBar addNewPlayer={addNewPlayer} setSearchPlayer={setSearchPlayer} />
       
-      <Routes>
+      <Switch>
         <Route path="/Guard">
             <PlayerContainer players={filterGuards} />
           </Route> 
@@ -51,13 +48,10 @@ function App() {
           <Route path="/Big">
             <PlayerContainer players={filterBigs} />
           </Route>
-          <Route path="/Team">
-            <PlayerContainer players={filterTeams} />
-          </Route>
           <Route path="/">
             <PlayerContainer players={filteredPlayers} filteredPlayers={filteredPlayers} />
             </Route>   
-      </Routes>
+      </Switch>
       
     </div>
   );
