@@ -32,7 +32,7 @@ export default function NewPlayerForm({addNewPlayer}) {
         body: JSON.stringify(newPlayer)
     }
     
-    fetch('http://localhost:3001/players', options)
+    fetch('https://knowledgeable-assorted-grenadilla.glitch.me/players', options)
     .then(r => r.json())
     .then(newPlayer => {
         addNewPlayer(newPlayer)
