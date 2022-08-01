@@ -28,20 +28,21 @@ export default function NewPlayerForm({addNewPlayer}) {
 
     const options = {
         headers: {"Content-Type": "application/json"},
-        method: "POST",
+        method: "GET",
         body: JSON.stringify(newPlayer)
     }
     
     fetch('https://knowledgeable-assorted-grenadilla.glitch.me/players', options)
     .then(r => r.json())
     .then(newPlayer => {
-        addNewPlayer(newPlayer)
+       /* addNewPlayer(newPlayer)
         setImage("");
         setName("");
         setPosition("");
         setHeight("");
         setWeight(0);  
-        setHighlights("");
+        setHighlights(""); */
+        console.log(newPlayer)
     })
 
     }

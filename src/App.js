@@ -13,7 +13,7 @@ function App() {
   
 
   useEffect (() => {
-    fetch("http://localhost:3001/players")
+    fetch("https://knowledgeable-assorted-grenadilla.glitch.me/players")
     .then((response) => response.json())
     .then((players) => setPlayers(players));
   },[]);
