@@ -181,31 +181,22 @@
       "id": 22
     },
     {
-      "image": "",
-      "name": "",
-      "position": "",
-      "height": 0,
-      "weight": 0,
-      "highlights": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kevin_Durant_%28Wizards_v._Warriors%2C_1-24-2019%29_%28cropped%29.jpg/220px-Kevin_Durant_%28Wizards_v._Warriors%2C_1-24-2019%29_%28cropped%29.jpg",
+      "name": "Kevin Durant",
+      "position": "Forward",
+      "height": "6'10",
+      "weight": "109",
+      "highlights": "https://en.wikipedia.org/wiki/List_of_NBA_All-Stars",
       "id": 23
     },
     {
-      "image": "https://en.wikipedia.org/wiki/File:Kobe_Bryant_2014.jpg",
-      "name": "Kobe Bryant ",
-      "position": "Guard",
-      "height": "6'6",
-      "weight": "212",
-      "highlights": "https://en.wikipedia.org/wiki/List_of_NBA_All-Stars",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Carmelo_Anthony_-_51958670372_%28cropped%29.jpg/220px-Carmelo_Anthony_-_51958670372_%28cropped%29.jpg",
+      "name": "Camelo Anthony",
+      "position": "Forward",
+      "height": "6'7",
+      "weight": "108",
+      "highlights": "https://en.wikipedia.org/wiki/NBA_All-Star",
       "id": 24
-    },
-    {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kobe_Bryant_2014.jpg/220px-Kobe_Bryant_2014.jpg",
-      "name": "",
-      "position": "",
-      "height": "",
-      "weight": 0,
-      "highlights": "",
-      "id": 25
     }
   ]
 }
